@@ -1,0 +1,18 @@
+.icon-image {
+    height: 35px;
+    margin-top: 3px;
+    padding-left: 150px;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    color: 'grey';
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pro-sidebar {
+    height: 100%;
+}
