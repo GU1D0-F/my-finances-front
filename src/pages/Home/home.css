@@ -11,3 +11,8 @@
     margin: 0 50px 28px 0;
     justify-content: flex-end;
 }
+
+.input-date-home {
+    background-color: var(--color-btn-purple);
+    color: var(--color-white);
+}

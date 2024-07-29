@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="home-container">
             <div className="home-buttons">
-                <button className="chart-btn" onClick={() => {
+                <button className="btn btn-purple chart-btn" onClick={() => {
                     activeChart === 'pie' ?
                         setActiveChart('bar')
                         :
@@ -21,7 +21,7 @@ const Home = () => {
                 }}>
                     {activeChart === 'pie' ? <FaChartBar /> : <FaChartPie />}
                 </button>
-                <input type="month" id="data"
+                <input type="month" id="data" className="input-date-home"
                     value={date}
                     onChange={(e) => setDate(e.target.value)} />
             </div>

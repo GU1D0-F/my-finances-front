@@ -14,11 +14,11 @@
   .calendar-content {
     display: flex;
     justify-content: space-between;
-  } */
+  } 
   
   .calendar-sidebar {
     flex: 1 1 20%;
-    background-color: #f4f4f4;
+    background-color: #6a6a72;
     padding: 15px;
     border-radius: 4px;
   }
@@ -33,7 +33,7 @@
   }
   
   .event-item {
-    background-color: #d4edda;
+    background-color: #512da8;
     margin: 10px 0;
     padding: 10px;
     border-radius: 2px;
@@ -44,7 +44,7 @@
   }
   
   .event-date {
-    color: #555;
+    color: white;
   }
   
   .calendar {

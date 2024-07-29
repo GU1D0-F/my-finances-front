@@ -7,8 +7,8 @@ const ProgressCircle = ({ progress = "0", size = "40" }) => {
     const circleStyle = {
         width: `${size}px`,
         height: `${size}px`,
-        background: `radial-gradient(#123456 55%, transparent 56%),
-                 conic-gradient(transparent 0deg ${angle}deg, #007bff ${angle}deg 360deg),
+        background: `radial-gradient(#6a6a72 55%, transparent 56%),
+                 conic-gradient(transparent 0deg ${angle}deg, #1a0d36 ${angle}deg 360deg),
                  #00cc00`
     };
 

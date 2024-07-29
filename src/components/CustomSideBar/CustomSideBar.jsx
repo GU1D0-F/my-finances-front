@@ -4,6 +4,7 @@ import "./CustomSideBar.css";
 import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import { TiThMenu } from "react-icons/ti";
 import { FaHome, FaCalendarAlt } from "react-icons/fa";
+import { GiExitDoor } from "react-icons/gi";
 import { GrMoney } from "react-icons/gr";
 import icons from "../../styles/icons.js";
 
@@ -69,13 +70,34 @@ const CustomSideBar = () => {
                         setSelected={setSelected}
                     />
 
-                    <Item 
+                    <Item
                         title="Calendar"
                         to="/calendar"
-                        icon={<FaCalendarAlt/>}
+                        icon={<FaCalendarAlt />}
                         selected={selected}
                         setSelected={setSelected}
                     />
+
+                    {!isCollapsed ?
+                        (<div className="exit-container">
+                            <MenuItem
+                                icon={<GiExitDoor />}
+                                onClick={() => {
+                                    // signout()
+                                }}
+                            >
+                                Sair
+                            </MenuItem>
+                        </div>)
+                        :
+                        (<div>
+                            <MenuItem
+                                icon={<GiExitDoor />}
+                                onClick={() => {
+                                    // signout()
+                                }}
+                            />
+                        </div>)}
                 </Menu>
             </Sidebar>
         </div>

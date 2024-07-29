@@ -87,7 +87,7 @@ const Spendings = () => {
                                 </td>
 
                                 <td className="text-right">
-                                    <button onClick={() => OpenDepesa(desp.id)} className="btn btn-blue">
+                                    <button onClick={() => OpenDepesa(desp.id)} className="btn btn-purple">
                                         <img className="icon-sm" src={icons.edit} alt="Edit" />
                                     </button>
                                     <button onClick={() => DeleteDespesa(desp.id)} className="btn btn-red ml-10">

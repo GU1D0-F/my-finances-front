@@ -20,7 +20,7 @@
 }
 
 .badge-btn {
-    background-color: #007bff;
+    background-color: #512da8;
     color: white;
     border: none;
     border-radius: 5px;
@@ -31,5 +31,5 @@
 }
 
 .badge-btn:hover {
-    background-color: #0056b3;
+    background-color: #251350;
 }

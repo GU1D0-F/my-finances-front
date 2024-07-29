@@ -12,6 +12,9 @@
     --color-red: #E15555;
     --color-dark-red: #c43c3c;
 
+
+    --color-btn-purple: #512da8;
+    --color-btn-dark-purple: #1a0d36;
     background-color: #43434A;
 
     --fsize-xsm: 11px;
@@ -77,6 +80,28 @@ td {
 .icon-sm {
     width: 15px;
     height: 15px;
+}
+
+.btn-purple {
+    border: 1px solid var(--color-btn-purple);
+    background-color: var(--color-btn-purple);
+    color: var(--color-white);
+}
+
+.btn-purple:hover {
+    background-color: var(--color-btn-dark-purple);
+}
+
+.btn-purple-outline {
+    border: 1px solid var(--color-btn-purple);
+    background-color: var(--color-white);
+    color: var(--color-btn-purple);
+}
+
+.btn-purple-outline:hover {
+    border: 1px solid var(--color-btn-dark-purple);
+    background-color: var(--color-btn-dark-purple);
+    color: var(--color-white);
 }
 
 .btn-blue {

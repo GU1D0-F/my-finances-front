@@ -60,8 +60,8 @@ const CardDespesa = ({idUrl}) => {
 
 
             <div className="btn-group text-right">
-                <button onClick={() => navigate("/")} className="btn btn-blue-outline ml-20">Cancelar</button>
-                <button onClick={SalvarDados} className="btn btn-blue ml-20">Salvar</button>
+                <button onClick={() => navigate("/")} className="btn btn-purple-outline ml-20">Cancelar</button>
+                <button onClick={SalvarDados} className="btn btn-purple ml-20">Salvar</button>
             </div>
         </div>
 
