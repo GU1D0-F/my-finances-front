@@ -6,9 +6,7 @@ import CustomSideBar from "../components/CustomSideBar/CustomSideBar";
 
 
 const RootRoutes = () => {
-    // const { user, token } = useAuth();
-    // const [isSidebar, setIsSidebar] = useState(true);
-    const [token, setToken] = useState(true);
+    const [token, setToken] = useState(null);
     const [total, setTotal] = useState(0);
 
     return (
