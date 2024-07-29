@@ -1,0 +1,19 @@
+.bar-container {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+
+.bar-box {
+    grid-column: span 3;
+    background-color: #1F2A40;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.bar-box-title {
+    color: white;
+}

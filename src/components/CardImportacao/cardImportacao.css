@@ -1,0 +1,33 @@
+.dropzone {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropzone p {
+    margin: 0;
+}
+
+.info-box {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.status-box {
+    display: flex;
+    align-items: center;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    padding: 15px;
+    margin-top: 25px;
+}

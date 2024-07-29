@@ -1,10 +1,39 @@
+import ValuesDash from "../../components/ValuesDash/valuesDash";
+import PieChart from "../../components/PieChart/pieChart";
+import BarChart from "../../components/BarChart/barChart";
+import { FaChartBar, FaChartPie } from "react-icons/fa";
 import "./home.css";
+import { useState } from "react";
 
 const Home = () => {
+
+    const [activeChart, setActiveChart] = useState("chart");
+    const [date, setDate] = useState(new Date);
+
     return (
-        <div className="center">
-            <h1>Bem Vindo</h1>
-        </div>
+        <div className="home-container">
+            <div className="home-buttons">
+                <button className="chart-btn" onClick={() => {
+                    activeChart === 'pie' ?
+                        setActiveChart('bar')
+                        :
+                        setActiveChart('pie')
+                }}>
+                    {activeChart === 'pie' ? <FaChartBar /> : <FaChartPie />}
+                </button>
+                <input type="month" id="data"
+                    value={date}
+                    onChange={(e) => setDate(e.target.value)} />
+            </div>
+
+
+            <ValuesDash />
+            {activeChart == "pie" ?
+                (<PieChart />)
+                :
+                (<BarChart />)
+            }
+        </div >
     )
 }
 

@@ -1,0 +1,44 @@
+  .grid-container-exportacao {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+  }
+
+  .info-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+  }
+
+  .icon {
+      font-size: 24px;
+      margin-right: 10px;
+  }
+
+  .generate-button,
+  .download-button {
+      background-color: white;
+      border: 1px solid #ccc;
+      margin-right: 15px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  .generate-button:disabled,
+  .download-button:disabled {
+      cursor: not-allowed;
+      color: #a9a9a9;
+  }
+
+  .status-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 4px solid;
+      border-bottom: 4px solid;
+      padding: 15px;
+      margin-top: 25px;
+  }

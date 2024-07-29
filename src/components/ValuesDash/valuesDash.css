@@ -1,0 +1,16 @@
+.grid-container-home {
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    display: grid;
+    gap: 20px;
+    grid-auto-rows: 140px;
+}
+
+
+.row-container-home {
+    background-color: #051636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

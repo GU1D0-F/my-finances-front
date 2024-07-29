@@ -1,0 +1,11 @@
+.input-group{
+    margin: 20px 0px;
+}
+
+.input-lg {       
+    font-size: var(--fsize-xxl);    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

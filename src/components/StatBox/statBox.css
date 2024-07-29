@@ -1,0 +1,27 @@
+.statbox {
+    width: 100%;
+    margin: 0 30px;
+}
+
+.statbox-header,
+.statbox-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statbox-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.statbox-subtitle {
+    font-size: 1.25rem;
+    color: #00ff00;
+}
+
+.statbox-increase {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #00cc00;
+}
